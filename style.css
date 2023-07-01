@@ -1,3 +1,25 @@
+/* start general style  */
+* {
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+/* end general style  */
+/* contianer style */
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* start centralize elements */
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End centralize elements */
+
 .btn-change {
     position: absolute;
     top: 50%;
@@ -5,16 +27,44 @@
     transform: translate(-50%, -50%);
     width: 200px;
     padding: 10px 0;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.color-hexa {
+.content .title {
+    text-shadow: 0.5px 1px #1b86de;
+}
+
+.content .color-hexa {
     background-color: black;
     color: #fff;
-    text-align: center;
     width: 200px;
-    padding: 15px 0;
+    height: 50px;
     margin: 10px 0;
     letter-spacing: 1.5px;
     box-shadow: 1px 1px 10px 2px inset #fff;
 }
+
+/* Start footer */
+footer.foot {
+    padding: 5px;
+    background-color: #000000;
+    box-shadow: 1px 1px 10px 2px inset #fff;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    margin: auto;
+}
+
+.foot .rights {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.foot .rights .foot-author {
+    color: #1b86de;
+}
+
+/* End footer */
